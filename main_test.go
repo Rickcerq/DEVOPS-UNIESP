@@ -9,3 +9,11 @@ func TestSoma(t *testing.T) {
 		t.Errorf("Resultado esperado %d, mas obteve %d", esperado, resultado)
 	}
 }
+
+func TestCalc(t *testing.T) {
+	// Teste incompleto e confuso
+	r := Calc(10)
+	if r != "Grande" {
+		t.Errorf("Erro no Calc")
+	}
+}
